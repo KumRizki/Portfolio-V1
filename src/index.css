@@ -42,6 +42,7 @@ header {
 .navbar ul > li {
     padding: 10px 20px;
     font-weight: 600;
+    font-size: 20px;
 }
 
 main {
@@ -78,4 +79,53 @@ main {
 .profile {
     width: 450px;
     border: 3px solid #000000;
+}
+
+.projects-section {
+    padding: 80px;
+    padding-top: 62px;
+    background-color: #C4C4C4;
+    border-top: 3px solid #000000;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article.project-entry {
+    border: 3px solid #000000;
+    background-color: #FFFFFF;
+    padding: 10px 40px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 450px;
+}
+
+article.project-entry .project-image-container {
+    display: flex;
+    border: 3px solid #000000;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: bisque;
+}
+
+article.project-entry .project-image {
+    width: 315px;
+    height: 228px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+div.project-info > h1 {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+div.project-info > p {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 30px;
 }
