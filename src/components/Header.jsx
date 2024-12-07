@@ -4,9 +4,9 @@ export default function Header() {
             <h1 className="logo">KumsWorld</h1>
             <nav className="navbar">
                 <ul>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li><a alt="About page">About</a></li>
+                    <li><a alt="Projects page">Projects</a></li>
+                    <li><a alt="Contact page">Contact</a></li>
                 </ul>
             </nav>
         </header>

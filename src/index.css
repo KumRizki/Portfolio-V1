@@ -45,6 +45,11 @@ header {
     font-size: 20px;
 }
 
+.navbar ul > li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 main {
     padding: 80px 150px;
     color: #000000;
@@ -128,4 +133,11 @@ div.project-info > p {
     font-weight: 400;
     font-size: 15px;
     margin-bottom: 30px;
+}
+
+footer {
+    border-top: 3px solid #000000;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
 }
